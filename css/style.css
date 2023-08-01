@@ -1,0 +1,28 @@
+.blocks {
+  display: flex;
+  flex-direction: column;
+}
+
+.blocks .block_1 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  margin-bottom: 20px;
+  order: 3;
+}
+
+.blocks .block_2 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin-bottom: 20px;
+  order: 2;
+}
+
+.blocks .block_3 {
+  width: 100px;
+  height: 100px;
+  background-color: brown;
+  margin-bottom: 20px;
+  order: 1;
+}
